@@ -1,0 +1,61 @@
+@import '../mixins/mixin.scss';
+@import '../variables/variable';
+
+/*=========================================================================================================
+                                                tournament  part start
+===========================================================================================================*/
+#payment {
+    padding: 30px 0;
+    background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    filter: drop-shadow(0 6px 0 0 #3a0090);
+    border-bottom: 6px solid #3a0090;
+
+    .pay_head {
+        h4 {
+            @include fs(#fff, 32px, 400, $anton);
+            text-shadow: 7px 7px 0px #5813b8 !important;
+        }
+    }
+
+    .pay_input {
+        margin-top: 20px;
+        position: relative;
+
+        input {
+            padding: 10px 15px;
+            border: 1px solid #3a0090;
+            @include fs(#3a0090, 14px, 400, $nouito);
+            background: transparent;
+            width: 570px;
+        }
+
+        button {
+            position: absolute;
+            top: 0;
+            right: 85px;
+            background: transparent;
+            border-left: 1px solid #3a0090 !important;
+            padding: 8px 15px;
+            border: none;
+            border: 1px solid #3a0090;
+            border-bottom: none;
+
+            i {
+                color: #3a0090;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .pay_card {
+        margin-top: 20px;
+
+        a {
+            margin-right: 10px;
+        }
+    }
+}
+
+/*=========================================================================================================
+                                                tournament part end
+===========================================================================================================*/

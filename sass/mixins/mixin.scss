@@ -1,0 +1,46 @@
+@mixin fs($c, $s, $w, $ff) {
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: $ff;
+}
+
+@mixin after_tl($t, $l, $h, $w, $bg) {
+    position: absolute;
+    content: '';
+    top: $t;
+    left: $l;
+    height: $h;
+    width: $w;
+    background: $bg;
+}
+
+@mixin after_bl($b, $l, $h, $w, $bg) {
+    position: absolute;
+    content: '';
+    bottom: $b;
+    left: $l;
+    height: $h;
+    width: $w;
+    background: $bg;
+}
+
+@mixin head {
+    font-family: $anton;
+    font-weight: 400;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 40px #4d0148);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4d0148;
+}
+
+@mixin button {
+    background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+}
+
+@mixin button_blue {
+    background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    box-shadow: 0 6px 0 0 #3a0090; 
+}

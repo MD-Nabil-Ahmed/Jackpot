@@ -1,0 +1,103 @@
+@import '../mixins/mixin.scss';
+@import '../variables/variable';
+
+/*=========================================================================================================
+                                                footer part start
+===========================================================================================================*/
+#footer {
+    padding: 60px 0 20px;
+    background: #0b001b;
+
+    .foot_head {
+        margin-bottom: 23px;
+
+        h4 {
+            @include fs(#fff, 32px, 400, $anton);
+        }
+    }
+
+    .foot_para {
+        margin-bottom: 35px;
+
+        p {
+            @include fs(#fff, 16px, 200, $nouito);
+            line-height: 26px;
+        }
+    }
+
+    .foot_icon {
+        a {
+            height: 50px;
+            width: 50px;
+            background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+            text-align: center;
+            line-height: 50px;
+            box-shadow: 0 3px 0 0 #3a0090;
+            margin-right: 10px;
+
+            &:hover {
+                @include button;
+                box-shadow: 0 3px 0 0 #661355;
+            }
+
+            i {
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+    }
+
+    .foot_list {
+
+        .first,
+        .second {
+            ul {
+                li {
+                    margin-bottom: 20px;
+
+                    a {
+                        @include fs(#fff, 16px, 600, $nouito);
+                        transition: all linear .3s;
+
+                        &:hover {
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .foot_row {
+        margin: 30px 0;
+
+        .brand_text {
+            h5 {
+                @include fs(#fff, 16px, 600, $nouito);
+                margin: 16px 0;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .foot_last {
+
+        p {
+            padding-top: 20px;
+            @include fs(#fff, 16px, 400, $nouito);
+            border-top: 2px solid #000;
+            position: relative;
+
+            &::after {
+                @include after_tl(0%, 0%, 1px, 100%, #290a59);
+            }
+        }
+    }
+}
+
+/*=========================================================================================================
+                                                footer part end
+===========================================================================================================*/

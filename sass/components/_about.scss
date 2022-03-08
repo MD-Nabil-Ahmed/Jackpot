@@ -1,0 +1,265 @@
+@import '../mixins/mixin.scss';
+@import '../variables/variable';
+
+
+/*=====================================================================================================
+                                            about us page start
+======================================================================================================*/
+
+
+
+
+/*===========================================================about head part start=====================================================*/
+#about_head {
+    padding: 80px 0 210px;
+    background: #150035;
+
+    .ab_text {
+        h2 {
+            @include head;
+            font-size: 48px;
+            color: #fb36d8;
+        }
+    }
+
+    .ab_link {
+
+        a,
+        h3 {
+            text-shadow: 0 7px 0 #1f004f;
+            @include fs(#fff, 24px, 400, $anton);
+
+            span {
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+
+        a.active {
+            color: $hover;
+        }
+    }
+}
+
+/*===========================================================about head part end=====================================================*/
+
+
+
+
+
+
+/*===========================================================about game part start=====================================================*/
+#about_game {
+    padding: 170px 0 60px;
+    background: #0b001b;
+
+    .rel {
+        position: relative;
+
+        .reddy {
+            position: absolute;
+            top: -270px;
+            left: 0;
+            width: 100%;
+            clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+            background: #6418d1;
+            border-bottom: 1px solid #490ea1;
+
+            .game_text {
+                padding: 30px 43px;
+                box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
+
+                h2 {
+                    @include fs(#fdb803, 50px, 400, $anton);
+                    margin-bottom: 15px;
+                    @include head;
+                }
+
+                h3 {
+                    @include fs(#fff, 32px, 400, $anton);
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    @include fs(#fff, 16px, 400, $nouito);
+                }
+            }
+        }
+    }
+
+    .about_clam {
+        padding-top: 30px;
+
+        .claim_text {
+            text-align: left;
+            padding-top: 80px;
+            padding-left: 80px;
+
+            p {
+                @include fs(#fff, 14px, 400, $nouito);
+                line-height: 26px;
+
+                span {
+                    display: block;
+                    padding-top: 25px;
+                }
+            }
+
+            .button {
+                @include fs(#fff, 20px, 400, $anton);
+                @include button_blue;
+                padding: 10px 30px;
+                border-radius: 5px;
+                box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+                margin-right: 30px;
+                margin-top: 40px;
+
+                &:hover {
+                    background: $hover;
+                    box-shadow: 0 6px 0 0 #661355;
+                    @include button;
+                }
+            }
+
+            a {
+
+                i {
+                    height: 40px;
+                    width: 40px;
+                    @include button_blue;
+                    box-shadow: 0 3px 0 0 rgba(58, 0, 144, 0.589) !important;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 40px;
+                    margin-right: 20px;
+                    color: #fff;
+                }
+
+                &:hover {
+                    i {
+                        @include button;
+                        box-shadow: 0 3px 0 0 #661355 !important;
+                    }
+
+                    span {
+                        color: $hover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*===========================================================about game part end=====================================================*/
+
+
+
+
+
+/*===========================================================about_sider_game part start=====================================================*/
+#about_sider_game {
+    background: #150035;
+    padding: 85px 0 100px;
+
+    .rel {
+        .game_head {
+            span {
+                @include fs(#ffdc28, 48px, 400, $anton);
+                color: #fdb125;
+                @include head;
+            }
+        }
+
+        .play {
+            padding-top: 45px;
+
+            .col_pd {
+                padding: 0 12px;
+            }
+
+            .play_img {
+                position: relative;
+
+                &:hover {
+                    .overly {
+                        transform: scale(1);
+                    }
+                }
+            }
+
+            .overly {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(21, 0, 53, 0.7);
+                transform: scale(0);
+                transition: all linear .3s;
+
+                h4 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    @include fs(#fff, 24px, 400, $anton);
+                }
+
+                a {
+                    position: absolute;
+                    top: 75%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    @include fs(#fff, 24px, 400, $anton);
+                    @include button_blue;
+                    padding: 14px 30px;
+                    border-radius: 5px;
+                    box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+
+                    &:hover {
+                        background: $hover;
+                        box-shadow: 0 6px 0 0 #661355;
+                        @include button;
+                    }
+                }
+
+            }
+        }
+
+        .slick-dots {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            li {
+                button {
+                    font-size: 0;
+                    height: 15px;
+                    margin-right: 10px;
+                    border: none;
+                    width: 15px;
+                    @include button_blue;
+                    box-shadow: 0 2px 0 0 rgba(58, 0, 144, 0.589);
+                    border-radius: 50%;
+                }
+            }
+
+            .slick-active {
+                button {
+                    height: 17px;
+                    width: 17px;
+                    border-radius: 50%;
+                    @include button;
+                    box-shadow: 0 2px 0 0 #661355;
+                }
+            }
+        }
+    }
+}
+
+/*===========================================================about_sider_game part end=====================================================*/
+
+/*=====================================================================================================
+                                            about us page end
+======================================================================================================*/

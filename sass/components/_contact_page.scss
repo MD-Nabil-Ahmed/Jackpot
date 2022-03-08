@@ -1,0 +1,72 @@
+@import '../mixins/mixin.scss';
+@import '../variables/variable';
+
+/*=========================================================================================================
+                                                contact us page part start
+===========================================================================================================*/
+.overly_con {
+    padding-bottom: 130px;
+    position: relative;
+
+    &::after {
+        @include after_tl(0, 0, 100%, 100%, rgba(11, 0, 27, 0.6));
+    }
+
+    .reddy {
+        z-index: 1;
+    }
+
+    .phn {
+        text-align: left;
+        z-index: 99;
+        margin-top: 80px;
+
+        .phn_icon {
+            a {
+                @include button_blue;
+                height: 100px;
+                width: 100px;
+                text-align: center;
+                line-height: 100px;
+                border-radius: 5px;
+
+                &:hover {
+                    @include button;
+                    box-shadow: 0 6px 0 0 #661355;
+                }
+
+                i {
+                    font-size: 40px;
+                    color: #fff;
+                }
+            }
+        }
+
+        .phn_text {
+            h5 {
+                @include fs(#fff, 24px, 400, $anton);
+                margin-bottom: 20px;
+            }
+
+            p {
+                @include fs(#fff, 19px, 400, $nouito);
+
+                span {
+                    display: block;
+                }
+            }
+
+            a{
+                @include fs(#fff, 19px, 400, $nouito);
+
+                &:hover{
+                    color: $hover;
+                }
+            }
+        }
+    }
+}
+
+/*=========================================================================================================
+                                                contact us page part end
+===========================================================================================================*/

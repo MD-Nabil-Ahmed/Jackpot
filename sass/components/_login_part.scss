@@ -1,0 +1,143 @@
+@import '../mixins/mixin.scss';
+@import '../variables/variable';
+
+/*=========================================================================================================
+                                                login part start
+===========================================================================================================*/
+#about_game {
+    padding: 210px 0 100px;
+
+    .rel {
+
+        .reddy {
+            position: absolute;
+            top: -310px;
+            left: 0;
+            width: 100%;
+            -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+            clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+            background: #6418d1;
+            border-bottom: 1px solid #490ea1;
+        }
+    }
+
+    .sign_form {
+        text-align: left;
+
+        .form_head {
+            h3 {
+                @include fs(#fff, 28px, 400, $anton);
+                margin-bottom: 5px;
+            }
+
+            p {
+                @include fs(#fff, 16px, 400, $nouito);
+                position: relative;
+
+                &::after {
+                    @include after_bl(-20px, 0, 3px, 60px, #fff);
+                    border-radius: 1px;
+                }
+            }
+        }
+
+        .form_all {
+            .posi_rel {
+                position: relative;
+
+                input {
+                    width: 100%;
+                    margin-top: 50px;
+                    background: transparent;
+                    border-bottom: 1px solid #fff !important;
+                    border: none;
+                    color: #fff;
+
+                    &::placeholder {
+                        @include fs(#fff, 14px, 400, $nouito);
+                    }
+                }
+
+                i {
+                    position: absolute;
+                    top: 50px;
+                    right: 0;
+                    color: #fff;
+                }
+            }
+        }
+
+        button {
+            @include fs(#fff, 20px, 400, $anton);
+            @include button_blue;
+            padding: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+            width: 100%;
+            border: none;
+            margin-top: 30px;
+            margin-right: 30px;
+
+            &:hover {
+                background: $hover;
+                box-shadow: 0 6px 0 0 #661355;
+                @include button;
+            }
+        }
+
+        .p_link {
+            margin-top: 30px;
+
+            p {
+                @include fs(#fff, 16px, 400, $nouito);
+                margin-top: 15px;
+
+                a {
+                    @include fs($hover, 16px, 400, $nouito);
+                }
+            }
+
+            .tx_rt {
+                text-align: right;
+
+                span {
+                    @include fs(#fff, 16px, 400, $nouito);
+                    position: relative;
+
+                    &::after {
+                        @include after_tl(-3px, 167%, 30px, 1px, #330080);
+                    }
+                }
+
+                .social_link {
+                    display: inline-block;
+                    text-align: right;
+
+                    a {
+                        height: 50px;
+                        width: 50px;
+                        background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+                        text-align: center;
+                        line-height: 50px;
+                        box-shadow: 0 3px 0 0 #3a0090;
+                        margin-left: 15px;
+
+                        &:hover {
+                            @include button;
+                            box-shadow: 0 3px 0 0 #661355;
+                        }
+
+                        i {
+                            font-size: 20px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=========================================================================================================
+                                                login part end
+===========================================================================================================*/
