@@ -7,6 +7,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -113,6 +123,7 @@ li {
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
           box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   margin-left: 20px;
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 .menu .menu_link a:hover {
@@ -126,6 +137,7 @@ li {
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   -webkit-box-shadow: 0 6px 0 0 #661355;
           box-shadow: 0 6px 0 0 #661355;
+  text-shadow: 4px 4px 0px #a60084 !important;
 }
 
 .fix_menu {
@@ -256,6 +268,7 @@ li {
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
           box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   margin-top: 25px;
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #banner a:hover {
@@ -263,6 +276,7 @@ li {
   -webkit-box-shadow: 0 6px 0 0 #661355;
           box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  text-shadow: 4px 4px 0px #a60084 !important;
 }
 
 /*==========================================================================================================
@@ -295,6 +309,8 @@ li {
   padding: 30px 43px;
   -webkit-box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
           box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
+  background: -webkit-gradient(linear, left bottom, right top, from(#9e4efc), to(#570dc8));
+  background: linear-gradient(left bottom, #9e4efc 0%, #570dc8 100%);
 }
 
 #game .rel .reddy .game_text h2 {
@@ -320,6 +336,7 @@ li {
   font-weight: 400;
   font-family: "Anton", sans-serif;
   margin-bottom: 5px;
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #game .rel .reddy .game_text p {
@@ -402,6 +419,7 @@ li {
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
           box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #game .rel .play .overly a:hover {
@@ -409,6 +427,7 @@ li {
   -webkit-box-shadow: 0 6px 0 0 #661355;
           box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  text-shadow: 4px 4px 0px #a60084 !important;
 }
 
 /*=========================================================================================================
@@ -470,6 +489,7 @@ li {
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
           box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #claim .claim_text a:hover {
@@ -477,6 +497,7 @@ li {
   -webkit-box-shadow: 0 6px 0 0 #661355;
           box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  text-shadow: 4px 4px 0px #a60084 !important;
 }
 
 /*================================================================================================
@@ -523,6 +544,7 @@ li {
   background: linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   -webkit-box-shadow: 0 6px 0 0 #661355;
           box-shadow: 0 6px 0 0 #661355;
+  text-shadow: 4px 4px 0px #a60084 !important;
 }
 
 #pricing .plan .member:hover .plan_item {
@@ -564,6 +586,7 @@ li {
   font-size: 32px;
   font-weight: 400;
   font-family: "Anton", sans-serif;
+  text-shadow: 3px 3px 0px #5813b8 !important;
 }
 
 #pricing .plan .member .plan_item h2 {
@@ -617,6 +640,7 @@ li {
           box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   -webkit-transition: all linear .3s;
   transition: all linear .3s;
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 /*=========================================================================================================
@@ -658,6 +682,37 @@ li {
   color: #290a59;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(67%, #000000), color-stop(67%, #290a59));
   background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+}
+
+#tournament .tour_head_1 h3 .effect_1 {
+  position: absolute;
+  bottom: -56px;
+  left: 0;
+  z-index: 9;
+  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+          animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
+@-webkit-keyframes nabil {
+  0% {
+    -webkit-transform: translateX(-40px);
+            transform: translateX(-40px);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+@keyframes nabil {
+  0% {
+    -webkit-transform: translateX(-40px);
+            transform: translateX(-40px);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
 }
 
 #tournament .tour_head_1 .ques {
@@ -766,6 +821,37 @@ li {
   color: #290a59;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(67%, #000000), color-stop(67%, #290a59));
   background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+}
+
+#tournament .tour_head_2 h3 .effect_2 {
+  position: absolute;
+  bottom: -56px;
+  left: 0;
+  z-index: 9;
+  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+          animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
+@-webkit-keyframes nudge {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+@keyframes nudge {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
 }
 
 #tournament .tour_head_2 .mar {
@@ -1025,6 +1111,32 @@ li {
   display: block;
 }
 
+#footer .foot_last {
+  position: relative;
+}
+
+#footer .foot_last .effect_3 {
+  position: absolute;
+  left: 0;
+  top: -11px;
+  z-index: 9;
+  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+          animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
+@keyframes nabil {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    left: 0;
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    right: 10px;
+  }
+}
+
 #footer .foot_last p {
   padding-top: 20px;
   color: #fff;
@@ -1154,6 +1266,8 @@ li {
   padding: 30px 43px;
   -webkit-box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
           box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
+  background: -webkit-gradient(linear, left bottom, right top, from(#9e4efc), to(#570dc8));
+  background: linear-gradient(left bottom, #9e4efc 0%, #570dc8 100%);
 }
 
 #about_game .rel .reddy .game_text h2 {
@@ -1179,6 +1293,7 @@ li {
   font-weight: 400;
   font-family: "Anton", sans-serif;
   margin-bottom: 5px;
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #about_game .rel .reddy .game_text p {
@@ -1345,6 +1460,7 @@ li {
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
           box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #about_sider_game .rel .play .overly a:hover {
@@ -1352,6 +1468,7 @@ li {
   -webkit-box-shadow: 0 6px 0 0 #661355;
           box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  text-shadow: 4px 4px 0px #a60084 !important;
 }
 
 #about_sider_game .rel .slick-dots {
@@ -1530,6 +1647,82 @@ li {
 /*=========================================================================================================
                                                 contact us page part end
 ===========================================================================================================*/
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
 /*=========================================================================================================
                                                 login part start
 ===========================================================================================================*/
@@ -1725,24 +1918,100 @@ li {
 /*=========================================================================================================
                                                 login part end
 ===========================================================================================================*/
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
 /*=========================================================================================================
                                                 membership  part start
 ===========================================================================================================*/
-#pricing {
-  padding: 0 0 110px;
+.mem_padding {
+  padding: 0 0 110px !important;
 }
 
-#pricing .mem_pd {
+.mem_padding .mem_pd {
   padding-top: 40px;
 }
 
-#about_game {
-  padding: 170px 0 0;
+.about_pd {
+  padding: 170px 0 0 !important;
 }
 
 /*=========================================================================================================
                                                 membership part end
 ===========================================================================================================*/
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
 /*=========================================================================================================
                                                 sign up part start
 ===========================================================================================================*/
@@ -1908,6 +2177,7 @@ li {
   border: none;
   margin-top: 30px;
   margin-right: 30px;
+  text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #about_game .sign_form button:hover {
@@ -1915,6 +2185,7 @@ li {
   -webkit-box-shadow: 0 6px 0 0 #661355;
           box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  text-shadow: 4px 4px 0px #a60084 !important;
 }
 
 #about_game .sign_form .p_link {
@@ -1989,6 +2260,44 @@ li {
 /*=========================================================================================================
                                                 sign up part end
 ===========================================================================================================*/
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
 /*================================================================================================
                                             claim part start
 =================================================================================================*/

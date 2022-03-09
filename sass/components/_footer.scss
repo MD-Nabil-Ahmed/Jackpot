@@ -84,6 +84,31 @@
     }
 
     .foot_last {
+        position: relative;
+
+        .effect_3 {
+            position: absolute;
+            left: 0;
+            top: -11px;
+            z-index: 9;
+            animation:
+                pulse 3s ease infinite alternate,
+                nudge 5s linear infinite alternate;
+
+            @keyframes nabil {
+
+                0% {
+                    transform: translateX(0%);
+                    left: 0;
+                }
+
+                100% {
+                    transform: translateX(100%);
+                    right: 10px;
+                }
+
+            }
+        }
 
         p {
             padding-top: 20px;

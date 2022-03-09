@@ -1,0 +1,125 @@
+/*=========================================================================================================
+                                                contact us page part start
+===========================================================================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.overly_con {
+  padding-bottom: 130px;
+  position: relative;
+}
+
+.overly_con::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(11, 0, 27, 0.6);
+}
+
+.overly_con .reddy {
+  z-index: 1;
+}
+
+.overly_con .phn {
+  text-align: left;
+  z-index: 99;
+  margin-top: 80px;
+}
+
+.overly_con .phn .phn_icon a {
+  background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
+  background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+  -webkit-box-shadow: 0 6px 0 0 #3a0090;
+          box-shadow: 0 6px 0 0 #3a0090;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 5px;
+}
+
+.overly_con .phn .phn_icon a:hover {
+  background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  -webkit-box-shadow: 0 6px 0 0 #661355;
+          box-shadow: 0 6px 0 0 #661355;
+}
+
+.overly_con .phn .phn_icon a i {
+  font-size: 40px;
+  color: #fff;
+}
+
+.overly_con .phn .phn_text h5 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 20px;
+}
+
+.overly_con .phn .phn_text p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.overly_con .phn .phn_text p span {
+  display: block;
+}
+
+.overly_con .phn .phn_text a {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.overly_con .phn .phn_text a:hover {
+  color: #ff39dc;
+}
+
+/*=========================================================================================================
+                                                contact us page part end
+===========================================================================================================*/
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
+/*# sourceMappingURL=contact.css.map */

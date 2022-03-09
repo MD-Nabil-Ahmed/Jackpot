@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
+/*=====================================================================================================
+                                            about us page start
+======================================================================================================*/
+/*===========================================================about head part start=====================================================*/
+#about_head {
+  padding: 80px 0 210px;
+  background: #150035;
+}
+
+#about_head .ab_text h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0 0 40px #4d0148);
+          filter: drop-shadow(0 0 40px #4d0148);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #4d0148;
+  font-size: 48px;
+  color: #fb36d8;
+}
+
+#about_head .ab_link a,
+#about_head .ab_link h3 {
+  text-shadow: 0 7px 0 #1f004f;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+}
+
+#about_head .ab_link a span,
+#about_head .ab_link h3 span {
+  color: #fff;
+  font-size: 24px;
+}
+
+#about_head .ab_link a.active {
+  color: #ff39dc;
+}
+
+/*===========================================================about head part end=====================================================*/
+/*===========================================================about game part start=====================================================*/
+#about_game {
+  padding: 170px 0 60px;
+  background: #0b001b;
+}
+
+#about_game .rel {
+  position: relative;
+}
+
+#about_game .rel .reddy {
+  position: absolute;
+  top: -270px;
+  left: 0;
+  width: 100%;
+  -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+          clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+  background: #6418d1;
+  border-bottom: 1px solid #490ea1;
+}
+
+#about_game .rel .reddy .game_text {
+  padding: 30px 43px;
+  -webkit-box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
+          box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
+  background: -webkit-gradient(linear, left bottom, right top, from(#9e4efc), to(#570dc8));
+  background: linear-gradient(left bottom, #9e4efc 0%, #570dc8 100%);
+}
+
+#about_game .rel .reddy .game_text h2 {
+  color: #fdb803;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 15px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0 0 40px #4d0148);
+          filter: drop-shadow(0 0 40px #4d0148);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #4d0148;
+}
+
+#about_game .rel .reddy .game_text h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 5px;
+  text-shadow: 4px 4px 0px #5813b8 !important;
+}
+
+#about_game .rel .reddy .game_text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+#about_game .about_clam {
+  padding-top: 30px;
+}
+
+#about_game .about_clam .claim_text {
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+#about_game .about_clam .claim_text p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 26px;
+}
+
+#about_game .about_clam .claim_text p span {
+  display: block;
+  padding-top: 25px;
+}
+
+#about_game .about_clam .claim_text .button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
+  background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+  -webkit-box-shadow: 0 6px 0 0 #3a0090;
+          box-shadow: 0 6px 0 0 #3a0090;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+#about_game .about_clam .claim_text .button:hover {
+  background: #ff39dc;
+  -webkit-box-shadow: 0 6px 0 0 #661355;
+          box-shadow: 0 6px 0 0 #661355;
+  background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+}
+
+#about_game .about_clam .claim_text a i {
+  height: 40px;
+  width: 40px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
+  background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+  -webkit-box-shadow: 0 6px 0 0 #3a0090;
+          box-shadow: 0 6px 0 0 #3a0090;
+  -webkit-box-shadow: 0 3px 0 0 rgba(58, 0, 144, 0.589) !important;
+          box-shadow: 0 3px 0 0 rgba(58, 0, 144, 0.589) !important;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+#about_game .about_clam .claim_text a:hover i {
+  background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  -webkit-box-shadow: 0 3px 0 0 #661355 !important;
+          box-shadow: 0 3px 0 0 #661355 !important;
+}
+
+#about_game .about_clam .claim_text a:hover span {
+  color: #ff39dc;
+}
+
+/*===========================================================about game part end=====================================================*/
+/*===========================================================about_sider_game part start=====================================================*/
+#about_sider_game {
+  background: #150035;
+  padding: 85px 0 100px;
+}
+
+#about_sider_game .rel .game_head span {
+  color: #ffdc28;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: #fdb125;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0 0 40px #4d0148);
+          filter: drop-shadow(0 0 40px #4d0148);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #4d0148;
+}
+
+#about_sider_game .rel .play {
+  padding-top: 45px;
+}
+
+#about_sider_game .rel .play .col_pd {
+  padding: 0 12px;
+}
+
+#about_sider_game .rel .play .play_img {
+  position: relative;
+}
+
+#about_sider_game .rel .play .play_img:hover .overly {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#about_sider_game .rel .play .overly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(21, 0, 53, 0.7);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#about_sider_game .rel .play .overly h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+}
+
+#about_sider_game .rel .play .overly a {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
+  background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+  -webkit-box-shadow: 0 6px 0 0 #3a0090;
+          box-shadow: 0 6px 0 0 #3a0090;
+  padding: 14px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  text-shadow: 4px 4px 0px #5813b8 !important;
+}
+
+#about_sider_game .rel .play .overly a:hover {
+  background: #ff39dc;
+  -webkit-box-shadow: 0 6px 0 0 #661355;
+          box-shadow: 0 6px 0 0 #661355;
+  background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  text-shadow: 4px 4px 0px #a60084 !important;
+}
+
+#about_sider_game .rel .slick-dots {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about_sider_game .rel .slick-dots li button {
+  font-size: 0;
+  height: 15px;
+  margin-right: 10px;
+  border: none;
+  width: 15px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
+  background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+  -webkit-box-shadow: 0 6px 0 0 #3a0090;
+          box-shadow: 0 6px 0 0 #3a0090;
+  -webkit-box-shadow: 0 2px 0 0 rgba(58, 0, 144, 0.589);
+          box-shadow: 0 2px 0 0 rgba(58, 0, 144, 0.589);
+  border-radius: 50%;
+}
+
+#about_sider_game .rel .slick-dots .slick-active button {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+  -webkit-box-shadow: 0 2px 0 0 #661355;
+          box-shadow: 0 2px 0 0 #661355;
+}
+
+/*===========================================================about_sider_game part end=====================================================*/
+/*=====================================================================================================
+                                            about us page end
+======================================================================================================*/
+/*# sourceMappingURL=about.css.map */

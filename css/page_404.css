@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+/*==============================================================================================
+                                            common css start
+===============================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==============================================================================================
+                                            common css end
+===============================================================================================*/
+/*================================================================================================
+                                            claim part start
+=================================================================================================*/
+#banner_404 {
+  padding: 100px 0;
+  background: #150035;
+}
+
+#banner_404 a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
+  background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+  -webkit-box-shadow: 0 6px 0 0 #3a0090;
+          box-shadow: 0 6px 0 0 #3a0090;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+}
+
+#banner_404 a:hover {
+  background: #ff39dc;
+  -webkit-box-shadow: 0 6px 0 0 #661355;
+          box-shadow: 0 6px 0 0 #661355;
+  background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+}
+
+/*================================================================================================
+                                            claim part end
+=================================================================================================*/
+/*# sourceMappingURL=page_404.css.map */

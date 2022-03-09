@@ -19,6 +19,27 @@
                 color: #290a59;
                 background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
             }
+
+            .effect_1 {
+                position: absolute;
+                bottom: -56px;
+                left: 0;
+                z-index: 9;
+                animation:
+                    pulse 3s ease infinite alternate,
+                    nudge 5s linear infinite alternate;
+
+                @keyframes nabil {
+                    0% {
+                        transform: translateX(-40px);
+                    }
+
+                    100% {
+                        transform: translateX(100%);
+                    }
+
+                }
+            }
         }
 
         .ques {
@@ -103,6 +124,26 @@
                 @include after_bl(-30px, 0, 3px, 100%, #000);
                 color: #290a59;
                 background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+            }
+
+            .effect_2 {
+                position: absolute;
+                bottom: -56px;
+                left: 0;
+                z-index: 9;
+                animation:
+                    pulse 3s ease infinite alternate,
+                    nudge 5s linear infinite alternate;
+
+                @keyframes nudge {
+                    0% {
+                        transform: translateX(-100px);
+                    }
+
+                    100% {
+                        transform: translateX(100%);
+                    }
+                }
             }
         }
 

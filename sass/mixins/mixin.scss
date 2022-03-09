@@ -42,5 +42,13 @@
 
 @mixin button_blue {
     background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
-    box-shadow: 0 6px 0 0 #3a0090; 
+    box-shadow: 0 6px 0 0 #3a0090;
+}
+
+@mixin text_shd_blu {
+    text-shadow: 4px 4px 0px #5813b8 !important;
+}
+
+@mixin text_shd_hov {
+    text-shadow: 4px 4px 0px #a60084 !important;
 }
