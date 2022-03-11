@@ -52,7 +52,6 @@
     .menu_link {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
 
         a {
             @include fs(#fff, 20px, 400, $anton);

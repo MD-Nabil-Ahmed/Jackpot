@@ -88,25 +88,21 @@
 
         .effect_3 {
             position: absolute;
+            bottom: 33px;
             left: 0;
-            top: -11px;
             z-index: 9;
-            animation:
-                pulse 3s ease infinite alternate,
-                nudge 5s linear infinite alternate;
+            // width: 100%;
+            // display: block;
+            animation: lineshine 10s infinite;
+            animation-direction: alternate;
 
-            @keyframes nabil {
-
-                0% {
-                    transform: translateX(0%);
+            @keyframes lineshine {
+                form {
                     left: 0;
                 }
-
-                100% {
-                    transform: translateX(100%);
-                    right: 10px;
+                to {
+                    left: 90%;
                 }
-
             }
         }
 

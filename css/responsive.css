@@ -1,0 +1,282 @@
+@media (max-width: 575px) {
+
+    /* ========================menu part start======================= */
+    .menu .logo {
+        width: 50%;
+        margin: 0;
+        padding: 0 !important;
+        margin-left: 12px;
+    }
+
+    .menu button {
+        outline: 0;
+    }
+
+    .menu button i {
+        color: #fcb100;
+        border: 1px solid #fcb100;
+        padding: 5px 8px;
+        border-radius: 4px;
+    }
+
+    .menu button {
+        margin-top: 25px;
+    }
+
+    .main_menu {
+        background: #000;
+        padding-bottom: 20px;
+        border-top: 1px solid#fcb100;
+    }
+
+    .main_menu .nav-item {
+        text-align: center;
+        height: 50px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .main_menu .menu_link {
+        margin: 0 auto !important;
+        padding: 0;
+        padding-top: 18px !important;
+    }
+
+    .main_menu .menu_link a {
+        margin-left: 35px !important;
+    }
+
+    .main_menu .menu_link a {
+        margin: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    /* ========================menu part end======================= */
+
+
+
+
+
+
+    /* ========================banner part start======================= */
+    #banner .banner_img {
+        display: none;
+    }
+
+    #banner .banner_text {
+        margin-left: 0 !important;
+    }
+
+    #banner .banner_text h4 {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 200px;
+    }
+
+    #banner .banner_text p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: -25px;
+    }
+
+    #banner a {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+
+    #banner {
+        padding: 50px 0 130px;
+    }
+
+    /* ========================banner part end======================= */
+
+
+
+
+
+
+    /* ========================game part start======================= */
+    #game .rel .reddy .game_text h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #game .rel .reddy .game_text h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #game .rel .reddy .game_text p {
+        font-size: 17px;
+    }
+
+    #game .rel .reddy {
+        top: -240px;
+    }
+
+    #game .rel .game_head span {
+        font-size: 30px;
+    }
+
+    #game .rel .play {
+        padding-top: 25px;
+    }
+
+    #game {
+        padding: 170px 0 30px;
+    }
+
+    #game .rel .play .overly h4 {
+        font-size: 20px;
+    }
+
+    #game .rel .play .overly a {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    #game .rel .play .play_img{
+        margin-bottom: 20px !important;
+    }
+
+    /* ========================game part end======================= */
+
+
+    /* ========================claim part start======================= */
+    #claim .claim_text {
+        margin-left: 0;
+        text-align: center;
+    }
+    #claim .claim_text h2 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    #claim .claim_text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #claim .claim_text p span {
+        /* display: block; */
+        margin-top: 0;
+    }
+    #claim .claim_text a {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+    /* ========================claim part end======================= */
+
+
+    /* ========================pricing part start======================= */
+    #pricing .pric_head h2 {
+        font-size: 30px;
+    }
+    #pricing {
+        padding: 50px 0 80px;
+    }
+    #pricing .plan .member .plan_link {
+        left: 25%;
+        top: 85%;
+    }
+
+    #pricing .plan .member .plan_head h3 {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    #pricing .plan .member .plan_item {
+        padding: 40px 0;
+    }
+    #pricing .plan .member .plan_item h3 {
+        font-size: 25px;
+    }
+    #pricing .plan .member .plan_item h2 {
+        font-size: 40px;
+        margin-top: 5px;
+    }
+    #pricing .plan .member .plan_item ul {
+        margin-top: 5px;
+    }
+    #pricing .plan .member .plan_item ul li {
+        font-size: 14px;
+        padding: 7px 0;
+    }
+    #pricing .plan .member {
+        margin-bottom: 20px;
+    }
+    #pricing {
+        padding: 50px 0 60px;
+    }
+    /* ========================pricing part end======================= */
+
+
+
+    /* ========================tournament part start======================= */
+    #tournament .tour_head_1 h3 {
+        font-size: 25px;
+    }
+    #tournament {
+        padding: 50px 0;
+    }
+    #tournament .tour_head_1 h3 .effect_1 {
+        bottom: -43px;
+    }
+    #tournament .tour_head_1 .ques .card button span {
+        font-size: 13px;
+    }
+    #tournament .tour_head_1 .btn:not(:disabled):not(.disabled) {
+        padding-bottom: 0;
+    }
+    #tournament .tour_head_1 .card-body p {
+        font-size: 13px;
+    }
+    #tournament .tour_head_1 .card-body {
+        padding-left: 20px;
+    }
+    #tournament .tour_head_1 .ques .card button {
+        padding-left: 5px;
+        margin-top: 10px;
+    }
+    #tournament .tour_head_1 .ques .card button i {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .card-header {
+        padding: 0;
+    }
+    #tournament .tour_head_2 h3 {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    #tournament .tour_head_2 h3::after {
+        bottom: -20px;
+    }
+    #tournament .tour_head_2 h3 .effect_2 {
+        bottom: -36px;
+    }
+    /* ========================tournament part end======================= */
+
+
+    /* ========================menu part start======================= */
+    /* ========================menu part end======================= */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 1400px) {}

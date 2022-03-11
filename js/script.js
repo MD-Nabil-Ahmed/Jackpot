@@ -3,7 +3,6 @@ $(function () {
 
 
     //menu fix part start 
-
     let menuOff = $('.menu').offset().top
 
     $(window).scroll(function () {
@@ -16,6 +15,26 @@ $(function () {
         };
     });
     //menu fix part end 
+
+
+
+
+    // game slider part start 
+    $('.ready_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        arrows: false,
+        responsive: [{
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        }]
+    });
+    // game slider part end 
 
 
 
@@ -80,7 +99,7 @@ $(function () {
         arrows: false,
         autoplaySpeed: 1000,
         dots: true,
-      });
+    });
     //about slider part end
 
     //menu fix part start 

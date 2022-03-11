@@ -66,19 +66,19 @@
             border-bottom: 1px solid #490ea1;
 
             .game_text {
-                padding: 30px 43px;
+                padding: 30px 43px 35px;
                 box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
                 background: linear-gradient(left bottom, #9e4efc 0%, #570dc8 100%);
 
                 h2 {
                     @include fs(#fdb803, 50px, 400, $anton);
-                    margin-bottom: 15px;
+                    margin-bottom: 20px;
                     @include head;
                 }
 
                 h3 {
                     @include fs(#fff, 32px, 400, $anton);
-                    margin-bottom: 5px;
+                    margin-bottom: 10px;
                     text-shadow: 4px 4px 0px #5813b8 !important;
                 }
 

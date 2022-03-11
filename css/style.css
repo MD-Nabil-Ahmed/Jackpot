@@ -105,8 +105,6 @@ li {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .menu .menu_link a {
@@ -296,7 +294,7 @@ li {
 
 #game .rel .reddy {
   position: absolute;
-  top: -260px;
+  top: -270px;
   left: 0;
   width: 100%;
   -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
@@ -306,7 +304,7 @@ li {
 }
 
 #game .rel .reddy .game_text {
-  padding: 30px 43px;
+  padding: 30px 43px 35px;
   -webkit-box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
           box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
   background: -webkit-gradient(linear, left bottom, right top, from(#9e4efc), to(#570dc8));
@@ -318,7 +316,7 @@ li {
   font-size: 50px;
   font-weight: 400;
   font-family: "Anton", sans-serif;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-family: "Anton", sans-serif;
   font-weight: 400;
   background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
@@ -335,7 +333,7 @@ li {
   font-size: 32px;
   font-weight: 400;
   font-family: "Anton", sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
@@ -689,29 +687,29 @@ li {
   bottom: -56px;
   left: 0;
   z-index: 9;
-  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
-          animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  width: 100%;
+  display: block;
+  -webkit-animation: lineshine 10s infinite;
+          animation: lineshine 10s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
-@-webkit-keyframes nabil {
-  0% {
-    -webkit-transform: translateX(-40px);
-            transform: translateX(-40px);
+@-webkit-keyframes lineshine {
+  form {
+    left: 0;
   }
-  100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+  to {
+    left: 90%;
   }
 }
 
-@keyframes nabil {
-  0% {
-    -webkit-transform: translateX(-40px);
-            transform: translateX(-40px);
+@keyframes lineshine {
+  form {
+    left: 0;
   }
-  100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+  to {
+    left: 90%;
   }
 }
 
@@ -828,29 +826,18 @@ li {
   bottom: -56px;
   left: 0;
   z-index: 9;
-  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
-          animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  -webkit-animation: lineshine 10s infinite;
+          animation: lineshine 10s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
-@-webkit-keyframes nudge {
-  0% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+@keyframes lineshine {
+  form {
+    left: 0;
   }
-  100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-  }
-}
-
-@keyframes nudge {
-  0% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
-  100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+  to {
+    left: 90%;
   }
 }
 
@@ -1117,23 +1104,21 @@ li {
 
 #footer .foot_last .effect_3 {
   position: absolute;
+  bottom: 33px;
   left: 0;
-  top: -11px;
   z-index: 9;
-  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
-          animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  -webkit-animation: lineshine 10s infinite;
+          animation: lineshine 10s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
-@keyframes nabil {
-  0% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+@keyframes lineshine {
+  form {
     left: 0;
   }
-  100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    right: 10px;
+  to {
+    left: 90%;
   }
 }
 
@@ -1263,7 +1248,7 @@ li {
 }
 
 #about_game .rel .reddy .game_text {
-  padding: 30px 43px;
+  padding: 30px 43px 35px;
   -webkit-box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
           box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
   background: -webkit-gradient(linear, left bottom, right top, from(#9e4efc), to(#570dc8));
@@ -1275,7 +1260,7 @@ li {
   font-size: 50px;
   font-weight: 400;
   font-family: "Anton", sans-serif;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-family: "Anton", sans-serif;
   font-weight: 400;
   background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
@@ -1292,7 +1277,7 @@ li {
   font-size: 32px;
   font-weight: 400;
   font-family: "Anton", sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
