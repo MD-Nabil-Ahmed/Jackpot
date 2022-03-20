@@ -145,7 +145,7 @@
         padding: 10px 20px;
     }
 
-    #game .rel .play .play_img{
+    #game .rel .play .play_img {
         margin-bottom: 20px !important;
     }
 
@@ -157,24 +157,29 @@
         margin-left: 0;
         text-align: center;
     }
+
     #claim .claim_text h2 {
         font-size: 30px;
         margin-top: 30px;
         margin-bottom: 25px;
     }
+
     #claim .claim_text p {
         font-size: 14px;
         line-height: 24px;
     }
+
     #claim .claim_text p span {
         /* display: block; */
         margin-top: 0;
     }
+
     #claim .claim_text a {
         font-size: 16px;
         padding: 10px 20px;
         margin-top: 30px;
     }
+
     /* ========================claim part end======================= */
 
 
@@ -182,9 +187,11 @@
     #pricing .pric_head h2 {
         font-size: 30px;
     }
+
     #pricing {
         padding: 50px 0 80px;
     }
+
     #pricing .plan .member .plan_link {
         left: 25%;
         top: 85%;
@@ -194,29 +201,37 @@
         font-size: 18px;
         padding: 15px 0;
     }
+
     #pricing .plan .member .plan_item {
         padding: 40px 0;
     }
+
     #pricing .plan .member .plan_item h3 {
         font-size: 25px;
     }
+
     #pricing .plan .member .plan_item h2 {
         font-size: 40px;
         margin-top: 5px;
     }
+
     #pricing .plan .member .plan_item ul {
         margin-top: 5px;
     }
+
     #pricing .plan .member .plan_item ul li {
         font-size: 14px;
         padding: 7px 0;
     }
+
     #pricing .plan .member {
         margin-bottom: 20px;
     }
+
     #pricing {
         padding: 50px 0 60px;
     }
+
     /* ========================pricing part end======================= */
 
 
@@ -225,45 +240,58 @@
     #tournament .tour_head_1 h3 {
         font-size: 25px;
     }
+
     #tournament {
         padding: 50px 0;
     }
+
     #tournament .tour_head_1 h3 .effect_1 {
         bottom: -43px;
     }
+
     #tournament .tour_head_1 .ques .card button span {
         font-size: 13px;
     }
+
     #tournament .tour_head_1 .btn:not(:disabled):not(.disabled) {
         padding-bottom: 0;
     }
+
     #tournament .tour_head_1 .card-body p {
         font-size: 13px;
     }
+
     #tournament .tour_head_1 .card-body {
         padding-left: 20px;
     }
+
     #tournament .tour_head_1 .ques .card button {
         padding-left: 5px;
         margin-top: 10px;
     }
+
     #tournament .tour_head_1 .ques .card button i {
         padding-right: 0;
         padding-top: 0;
     }
+
     .card-header {
         padding: 0;
     }
+
     #tournament .tour_head_2 h3 {
         font-size: 30px;
         margin-top: 25px;
     }
+
     #tournament .tour_head_2 h3::after {
         bottom: -20px;
     }
+
     #tournament .tour_head_2 h3 .effect_2 {
         bottom: -36px;
     }
+
     /* ========================tournament part end======================= */
 
 

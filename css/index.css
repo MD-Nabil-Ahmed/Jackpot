@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 /*==============================================================================================
                                             common css start
 ===============================================================================================*/
@@ -8,7 +9,7 @@
   padding: 0;
   outline: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul,
@@ -57,9 +58,9 @@ li {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   line-height: 98px;
 }
 
@@ -90,7 +91,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .menu .menu_link a {
@@ -101,11 +102,11 @@ li {
   background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
   background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
   -webkit-box-shadow: 0 6px 0 0 #3a0090;
-          box-shadow: 0 6px 0 0 #3a0090;
+  box-shadow: 0 6px 0 0 #3a0090;
   padding: 10px 30px;
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
-          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   margin-left: 20px;
   text-shadow: 4px 4px 0px #5813b8 !important;
 }
@@ -113,14 +114,14 @@ li {
 .menu .menu_link a:hover {
   background: #ff39dc;
   -webkit-box-shadow: 0 6px 0 0 #661355;
-          box-shadow: 0 6px 0 0 #661355;
+  box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
 }
 
 .menu .menu_link a.active {
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   -webkit-box-shadow: 0 6px 0 0 #661355;
-          box-shadow: 0 6px 0 0 #661355;
+  box-shadow: 0 6px 0 0 #661355;
   text-shadow: 4px 4px 0px #a60084 !important;
 }
 
@@ -160,7 +161,7 @@ li {
 .fix_menu .menu_link a.active {
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   -webkit-box-shadow: 0 6px 0 0 #661355;
-          box-shadow: 0 6px 0 0 #661355;
+  box-shadow: 0 6px 0 0 #661355;
 }
 
 /*===================================================================================================
@@ -184,7 +185,7 @@ li {
   top: 50%;
   left: -7%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #banner .ban .banner_img img {
@@ -192,7 +193,7 @@ li {
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   height: 600px;
 }
 
@@ -221,7 +222,7 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0 0 40px #4d0148);
-          filter: drop-shadow(0 0 40px #4d0148);
+  filter: drop-shadow(0 0 40px #4d0148);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #4d0148;
   -webkit-text-fill-color: transparent;
@@ -246,11 +247,11 @@ li {
   background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
   background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
   -webkit-box-shadow: 0 6px 0 0 #3a0090;
-          box-shadow: 0 6px 0 0 #3a0090;
+  box-shadow: 0 6px 0 0 #3a0090;
   padding: 14px 30px;
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
-          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   margin-top: 25px;
   text-shadow: 4px 4px 0px #5813b8 !important;
 }
@@ -258,7 +259,7 @@ li {
 #banner a:hover {
   background: #ff39dc;
   -webkit-box-shadow: 0 6px 0 0 #661355;
-          box-shadow: 0 6px 0 0 #661355;
+  box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   text-shadow: 4px 4px 0px #a60084 !important;
 }
@@ -270,7 +271,7 @@ li {
                                                 game part start
 ===========================================================================================================*/
 #game {
-  padding: 170px 0 100px;
+  padding: 75px 0 100px !important;
   background: #0b001b;
 }
 
@@ -284,7 +285,7 @@ li {
   left: 0;
   width: 100%;
   -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
-          clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
   background: #6418d1;
   border-bottom: 1px solid #490ea1;
 }
@@ -292,7 +293,7 @@ li {
 #game .rel .reddy .game_text {
   padding: 30px 43px 35px;
   -webkit-box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
-          box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
+  box-shadow: 10px 0 50px 0 rgba(31, 7, 67, 0.5);
   background: -webkit-gradient(linear, left bottom, right top, from(#9e4efc), to(#570dc8));
   background: linear-gradient(left bottom, #9e4efc 0%, #570dc8 100%);
 }
@@ -309,7 +310,7 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0 0 40px #4d0148);
-          filter: drop-shadow(0 0 40px #4d0148);
+  filter: drop-shadow(0 0 40px #4d0148);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #4d0148;
 }
@@ -342,7 +343,7 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0 0 40px #4d0148);
-          filter: drop-shadow(0 0 40px #4d0148);
+  filter: drop-shadow(0 0 40px #4d0148);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #4d0148;
 }
@@ -357,7 +358,7 @@ li {
 
 #game .rel .play .play_img:hover .overly {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 #game .rel .play .overly {
@@ -368,7 +369,7 @@ li {
   width: 100%;
   background: rgba(21, 0, 53, 0.7);
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: all linear .3s;
   transition: all linear .3s;
 }
@@ -378,7 +379,7 @@ li {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 24px;
   font-weight: 400;
@@ -390,7 +391,7 @@ li {
   top: 75%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 24px;
   font-weight: 400;
@@ -398,18 +399,18 @@ li {
   background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
   background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
   -webkit-box-shadow: 0 6px 0 0 #3a0090;
-          box-shadow: 0 6px 0 0 #3a0090;
+  box-shadow: 0 6px 0 0 #3a0090;
   padding: 10px 30px;
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
-          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #game .rel .play .overly a:hover {
   background: #ff39dc;
   -webkit-box-shadow: 0 6px 0 0 #661355;
-          box-shadow: 0 6px 0 0 #661355;
+  box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   text-shadow: 4px 4px 0px #a60084 !important;
 }
@@ -441,7 +442,7 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0 0 40px #4d0148);
-          filter: drop-shadow(0 0 40px #4d0148);
+  filter: drop-shadow(0 0 40px #4d0148);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #4d0148;
 }
@@ -467,19 +468,19 @@ li {
   background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
   background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
   -webkit-box-shadow: 0 6px 0 0 #3a0090;
-          box-shadow: 0 6px 0 0 #3a0090;
+  box-shadow: 0 6px 0 0 #3a0090;
   padding: 10px 30px;
   margin-top: 50px;
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
-          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   text-shadow: 4px 4px 0px #5813b8 !important;
 }
 
 #claim .claim_text a:hover {
   background: #ff39dc;
   -webkit-box-shadow: 0 6px 0 0 #661355;
-          box-shadow: 0 6px 0 0 #661355;
+  box-shadow: 0 6px 0 0 #661355;
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   text-shadow: 4px 4px 0px #a60084 !important;
 }
@@ -507,7 +508,7 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0 0 40px #4d0148);
-          filter: drop-shadow(0 0 40px #4d0148);
+  filter: drop-shadow(0 0 40px #4d0148);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #4d0148;
 }
@@ -520,14 +521,14 @@ li {
 
 #pricing .plan .member:hover {
   -webkit-transform: translateY(30px);
-          transform: translateY(30px);
+  transform: translateY(30px);
 }
 
 #pricing .plan .member:hover .plan_link a {
   background: -webkit-gradient(linear, left bottom, left top, from(#a60084), to(#ff39dc));
   background: linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   -webkit-box-shadow: 0 6px 0 0 #661355;
-          box-shadow: 0 6px 0 0 #661355;
+  box-shadow: 0 6px 0 0 #661355;
   text-shadow: 4px 4px 0px #a60084 !important;
 }
 
@@ -621,7 +622,7 @@ li {
   margin-top: 50px;
   border-radius: 5px;
   -webkit-box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
-          box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
+  box-shadow: 0 6px 0 0 rgba(58, 0, 144, 0.589);
   -webkit-transition: all linear .3s;
   transition: all linear .3s;
   text-shadow: 4px 4px 0px #5813b8 !important;
@@ -650,7 +651,7 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0 0 40px #4d0148);
-          filter: drop-shadow(0 0 40px #4d0148);
+  filter: drop-shadow(0 0 40px #4d0148);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #4d0148;
 }
@@ -676,15 +677,16 @@ li {
   width: 100%;
   display: block;
   -webkit-animation: lineshine 10s infinite;
-          animation: lineshine 10s infinite;
+  animation: lineshine 10s infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 @-webkit-keyframes lineshine {
   form {
     left: 0;
   }
+
   to {
     left: 90%;
   }
@@ -694,6 +696,7 @@ li {
   form {
     left: 0;
   }
+
   to {
     left: 90%;
   }
@@ -766,11 +769,11 @@ li {
   padding: 0;
 }
 
-#tournament .tour_head_1 .btn-check:focus + .btn,
+#tournament .tour_head_1 .btn-check:focus+.btn,
 #tournament .tour_head_1 .btn:focus {
   outline: 0;
   -webkit-box-shadow: 0 0 0 0 #000 !important;
-          box-shadow: 0 0 0 0 #000 !important;
+  box-shadow: 0 0 0 0 #000 !important;
 }
 
 #tournament .tour_head_1 .btn:not(:disabled):not(.disabled) {
@@ -789,7 +792,7 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0 0 40px #4d0148);
-          filter: drop-shadow(0 0 40px #4d0148);
+  filter: drop-shadow(0 0 40px #4d0148);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #4d0148;
 }
@@ -813,15 +816,16 @@ li {
   left: 0;
   z-index: 9;
   -webkit-animation: lineshine 10s infinite;
-          animation: lineshine 10s infinite;
+  animation: lineshine 10s infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 @keyframes lineshine {
   form {
     left: 0;
   }
+
   to {
     left: 90%;
   }
@@ -938,7 +942,7 @@ li {
   background: -webkit-gradient(linear, left bottom, left top, from(#570dc8), to(#9e4efc));
   background: linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
   -webkit-filter: drop-shadow(0 6px 0 0 #3a0090);
-          filter: drop-shadow(0 6px 0 0 #3a0090);
+  filter: drop-shadow(0 6px 0 0 #3a0090);
   border-bottom: 6px solid #3a0090;
 }
 
@@ -1033,14 +1037,14 @@ li {
   text-align: center;
   line-height: 50px;
   -webkit-box-shadow: 0 3px 0 0 #3a0090;
-          box-shadow: 0 3px 0 0 #3a0090;
+  box-shadow: 0 3px 0 0 #3a0090;
   margin-right: 10px;
 }
 
 #footer .foot_icon a:hover {
   background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
   -webkit-box-shadow: 0 3px 0 0 #661355;
-          box-shadow: 0 3px 0 0 #661355;
+  box-shadow: 0 3px 0 0 #661355;
 }
 
 #footer .foot_icon a i {
@@ -1094,15 +1098,16 @@ li {
   left: 0;
   z-index: 9;
   -webkit-animation: lineshine 10s infinite;
-          animation: lineshine 10s infinite;
+  animation: lineshine 10s infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 @keyframes lineshine {
   form {
     left: 0;
   }
+
   to {
     left: 90%;
   }
